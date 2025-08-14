@@ -1,6 +1,6 @@
 import { MdOutlinePlayArrow } from "react-icons/md";
 import { socialLinks } from "../../constants";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
 const Hero = () => {
   return (
