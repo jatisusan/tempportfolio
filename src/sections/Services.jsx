@@ -2,10 +2,11 @@ import React from "react";
 import CommonTitle from "../components/CommonTitle";
 import { services } from "../../constants";
 import ServiceCard from "../components/ServiceCard";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section className="services-container">
+    <section id="services" className="services-container">
       <CommonTitle first={"My"} second={"Services"} position={"left"} />
 
       <div className="services-content">
@@ -15,7 +16,9 @@ const Services = () => {
       </div>
 
       <div className="btn-div">
-        <button>Read more</button>
+        <button>
+          <Link to={'/services'}>Read more</Link>
+        </button>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ import CommonTitle from "../components/CommonTitle";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <CommonTitle first={"My"} second={"Contact"} position={"center"} />
 
       <form className="contact-form">

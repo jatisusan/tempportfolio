@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { portfolioItems } from "../../constants";
 import CommonTitle from "../components/CommonTitle";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio-container">
+    <section id="portfolio" className="portfolio-container">
       <CommonTitle first={"My"} second={"Portfolio"} position={"center"} />
 
       <div className="portfolio-grid">
@@ -16,16 +17,16 @@ const Portfolio = () => {
             <img src={item.img} alt="" />
 
             <div className="portfolio-item-overlay">
-              <button style={{ background: "white", color: "black" }}>
-                See more
-              </button>
+              <button style={{ background: "white", color: "black" }}>See More</button>
             </div>
           </div>
         ))}
       </div>
 
       <div className="btn-div">
-        <button>See more</button>
+        <button>
+          <Link to={"/portfolio"}>See more</Link>
+        </button>
       </div>
     </section>
   );

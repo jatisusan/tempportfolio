@@ -4,20 +4,20 @@ export const navLinks = [
     link: "/",
   },
   {
-    title: "About",
-    link: "/about",
+    title: "Blog",
+    link: "#blog",
+  },
+  {
+    title: "Projects",
+    link: "#portfolio",
   },
   {
     title: "Services",
-    link: "/services",
-  },
-  {
-    title: "Blog",
-    link: "/blog",
+    link: "#services",
   },
   {
     title: "Contact",
-    link: "/contact",
+    link: "#contact",
   },
 ];
 
@@ -86,21 +86,21 @@ export const blogCards = [
   {
     img: "/blog1.jpg",
     date: "JUN 05",
-    title: 'Veniam, quis nostrud ',
+    title: "Veniam, quis nostrud ",
     description:
       "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
   },
   {
     img: "/blog2.jpg",
     date: "JUN 05",
-    title: 'Veniam, quis nostrud ',
+    title: "Veniam, quis nostrud ",
     description:
       "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
   },
   {
     img: "/blog3.jpg",
     date: "JUN 05",
-    title: 'Veniam, quis nostrud ',
+    title: "Veniam, quis nostrud ",
     description:
       "elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
   },

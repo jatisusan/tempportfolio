@@ -149,7 +149,7 @@ nav p span {
 }
 
 .services-container {
-  padding: 0 5rem 3rem 5rem;
+  padding: 2rem 5rem 3rem 5rem;
 }
 
 .common-title {
@@ -371,4 +371,47 @@ textarea {
   height: 110px;
 }
 
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 7rem;
+}
 
+.footer-top p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #252f2d;
+}
+
+
+.footer-bottom {
+  background-color: #252f2d;
+  padding: 4rem 4rem 2rem 4rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-icons div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #3E412D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

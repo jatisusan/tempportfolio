@@ -3,7 +3,7 @@ import CommonTitle from "../components/CommonTitle";
 
 const Blog = () => {
   return (
-    <div className="blog-container">
+    <div id="blog" className="blog-container">
       <div className="blog-bg">
         <img src="/code-bg.jpg" alt="" />
       </div>
